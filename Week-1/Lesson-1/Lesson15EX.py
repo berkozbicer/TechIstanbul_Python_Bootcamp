@@ -1,0 +1,16 @@
+#Example
+
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+city = input("Enter your city: ")
+hobby = input("Enter your hobby: ")
+height = float(input("Enter your height in meters: "))
+is_continue_course = bool(input("Are you continuing the course? (True/False): "))
+print("Personal Information Summary:")
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"City: {city}")
+print(f"Hobby: {hobby}")
+print(f"Height: {height} meters")
+print(f"Continuing the course: {is_continue_course}")
+print("Thank you for providing your information!")
