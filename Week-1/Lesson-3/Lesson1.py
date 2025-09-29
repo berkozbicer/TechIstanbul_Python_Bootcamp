@@ -1,0 +1,5 @@
+for loop_variable in range(10): # 0,1,2,3,....,9 (10 times)
+    #print("Welcome to Python programming")
+    print("Loop variable is:", loop_variable)
+    print(loop_variable)
+print("Loop is finished")
